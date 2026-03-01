@@ -1,6 +1,6 @@
-import 'package:logger/data/datasource/filter_preset_datasource.dart';
-import 'package:logger/data/models/filter_preset.dart';
-import 'package:logger/utils/filters.dart';
+import 'package:call_tracker/data/datasource/filter_preset_datasource.dart';
+import 'package:call_tracker/data/models/filter_preset.dart';
+import 'package:call_tracker/utils/filters.dart';
 
 class PresetsRepository {
   final FilterPresetDatasource _datasource;

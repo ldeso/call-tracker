@@ -2,17 +2,17 @@ import 'package:call_log/call_log.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:logger/components/common/date_picker.dart';
-import 'package:logger/components/common/sized_text.dart';
-import 'package:logger/components/common/toggle_button.dart';
-import 'package:logger/data/models/filter_preset.dart';
-import 'package:logger/providers/loader_provider.dart';
-import 'package:logger/providers/log_filters_provider.dart';
-import 'package:logger/utils/filter_date_ranges.dart';
-import 'package:logger/utils/filters.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:logger/utils/constants.dart' as constants;
-import 'package:logger/utils/format_helpers.dart';
+import 'package:call_tracker/components/common/date_picker.dart';
+import 'package:call_tracker/components/common/sized_text.dart';
+import 'package:call_tracker/components/common/toggle_button.dart';
+import 'package:call_tracker/data/models/filter_preset.dart';
+import 'package:call_tracker/providers/loader_provider.dart';
+import 'package:call_tracker/providers/log_filters_provider.dart';
+import 'package:call_tracker/utils/filter_date_ranges.dart';
+import 'package:call_tracker/utils/filters.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
+import 'package:call_tracker/utils/constants.dart' as constants;
+import 'package:call_tracker/utils/format_helpers.dart';
 
 class LogFilters extends ConsumerStatefulWidget {
   final WidgetRef parentRef;

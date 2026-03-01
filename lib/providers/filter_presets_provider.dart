@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/data/models/filter_preset.dart';
-import 'package:logger/data/repostiory/preset_repository_provider.dart';
-import 'package:logger/utils/filters.dart';
+import 'package:call_tracker/data/models/filter_preset.dart';
+import 'package:call_tracker/data/repostiory/preset_repository_provider.dart';
+import 'package:call_tracker/utils/filters.dart';
 
 class FilterPresetsNotifier extends AsyncNotifier<List<FilterPreset>> {
   @override

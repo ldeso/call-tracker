@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/providers/shared_utility_provider.dart';
+import 'package:call_tracker/providers/shared_utility_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'core/app_core.dart';
 import 'themeing/theme.dart';
@@ -20,7 +20,7 @@ void main() async {
         sharedPreferencesProvider.overrideWithValue(sharedPreferences),
       ],
       child: MaterialApp(
-        title: "Logger",
+        title: "Call Tracker",
         debugShowCheckedModeBanner: false,
         themeMode: ThemeMode.system,
         theme: ThemeClass.lightTheme,

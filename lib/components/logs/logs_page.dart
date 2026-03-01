@@ -2,15 +2,15 @@ import 'package:call_log/call_log.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/components/logs/grouped_logs_builder.dart';
-import 'package:logger/components/logs/quick_summary.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:logger/providers/log_filters_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/grouped_calls_type_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/use_grouping_with_filters.dart';
-import 'package:logger/utils/call_log_grouper.dart';
-import 'package:logger/utils/format_helpers.dart';
-import 'package:logger/utils/grouper.dart';
+import 'package:call_tracker/components/logs/grouped_logs_builder.dart';
+import 'package:call_tracker/components/logs/quick_summary.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
+import 'package:call_tracker/providers/log_filters_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/grouped_calls_type_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/use_grouping_with_filters.dart';
+import 'package:call_tracker/utils/call_log_grouper.dart';
+import 'package:call_tracker/utils/format_helpers.dart';
+import 'package:call_tracker/utils/grouper.dart';
 
 class LogsPage extends ConsumerStatefulWidget {
   final Iterable<CallLogEntry>? entries;

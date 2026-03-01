@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/data/models/tracklist_item.dart';
-import 'package:logger/data/repostiory/tracklist_repository_provider.dart';
+import 'package:call_tracker/data/models/tracklist_item.dart';
+import 'package:call_tracker/data/repostiory/tracklist_repository_provider.dart';
 
 class TrackListNotifier extends AsyncNotifier<List<TrackListItem>> {
   @override

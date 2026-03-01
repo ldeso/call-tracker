@@ -1,19 +1,19 @@
 import 'package:call_log/call_log.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/components/analytics/call_duration.dart';
-import 'package:logger/components/analytics/call_freq.dart';
-import 'package:logger/components/analytics/call_stats.dart';
-import 'package:logger/components/analytics/inc_out_tile.dart';
-import 'package:logger/components/analytics/top_contacts_tile.dart';
-import 'package:logger/components/common/grid_skeleton.dart';
-import 'package:logger/components/common/skeleton.dart';
-import 'package:logger/providers/call_logs_analyzer.dart';
-import 'package:logger/providers/log_filters_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/total_call_duration_provider.dart';
-import 'package:logger/utils/analytics_fns.dart';
-import 'package:logger/utils/format_helpers.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/components/analytics/call_duration.dart';
+import 'package:call_tracker/components/analytics/call_freq.dart';
+import 'package:call_tracker/components/analytics/call_stats.dart';
+import 'package:call_tracker/components/analytics/inc_out_tile.dart';
+import 'package:call_tracker/components/analytics/top_contacts_tile.dart';
+import 'package:call_tracker/components/common/grid_skeleton.dart';
+import 'package:call_tracker/components/common/skeleton.dart';
+import 'package:call_tracker/providers/call_logs_analyzer.dart';
+import 'package:call_tracker/providers/log_filters_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/total_call_duration_provider.dart';
+import 'package:call_tracker/utils/analytics_fns.dart';
+import 'package:call_tracker/utils/format_helpers.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 enum CallFreqType { received, called }
 

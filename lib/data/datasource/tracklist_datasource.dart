@@ -1,5 +1,5 @@
-import 'package:logger/data/datasource/datasource.dart';
-import 'package:logger/data/models/tracklist_item.dart';
+import 'package:call_tracker/data/datasource/datasource.dart';
+import 'package:call_tracker/data/models/tracklist_item.dart';
 import 'package:sqflite/sqflite.dart';
 
 class TrackListDatasource {

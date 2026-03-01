@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:logger/components/common/sized_text.dart';
-import 'package:logger/utils/app_information.dart';
+import 'package:call_tracker/components/common/sized_text.dart';
+import 'package:call_tracker/utils/app_information.dart';
 import 'package:url_launcher/url_launcher.dart' as url_launcher;
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 class AboutActivityScreen extends StatelessWidget {
   const AboutActivityScreen({super.key});
@@ -16,17 +16,7 @@ class AboutActivityScreen extends StatelessWidget {
             AppLocalizations.of(context).appDetailsText,
           ),
           backgroundColor: Colors.transparent,
-          actions: [
-            IconButton(
-              tooltip: AppLocalizations.of(context).donateText,
-              onPressed: () {
-                url_launcher.launchUrl(AppInformation.getDonationLink());
-              },
-              icon: const Icon(
-                Icons.handshake,
-              ),
-            ),
-          ],
+          actions: const [],
         ),
         body: SingleChildScrollView(
           child: Padding(

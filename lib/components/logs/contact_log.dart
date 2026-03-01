@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:logger/components/logs/log_details.dart';
-import 'package:logger/providers/whatsapp_availablity_provider.dart';
-import 'package:logger/utils/call_display_helper.dart';
-import 'package:logger/utils/contact_handler.dart';
-import 'package:logger/utils/format_helpers.dart';
-import 'package:logger/utils/native_methods.dart';
-import 'package:logger/utils/whatsapp_launcher.dart';
+import 'package:call_tracker/components/logs/log_details.dart';
+import 'package:call_tracker/providers/whatsapp_availablity_provider.dart';
+import 'package:call_tracker/utils/call_display_helper.dart';
+import 'package:call_tracker/utils/contact_handler.dart';
+import 'package:call_tracker/utils/format_helpers.dart';
+import 'package:call_tracker/utils/native_methods.dart';
+import 'package:call_tracker/utils/whatsapp_launcher.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 class ContactLog extends ConsumerWidget {
   final CallLogEntry logDetails;

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/components/common/divider.dart';
-import 'package:logger/components/common/loader.dart';
-import 'package:logger/components/common/sized_text.dart';
-import 'package:logger/data/models/filter_preset.dart';
-import 'package:logger/providers/call_logs_provider.dart';
-import 'package:logger/providers/filter_presets_provider.dart';
-import 'package:logger/providers/log_filters_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/duration_filtering_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/phone_account_filtering_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/uses_filter_presets_provider.dart';
-import 'package:logger/screens/settings/preset_editor.dart';
-import 'package:logger/utils/filters.dart';
-import 'package:logger/utils/constants.dart' as constants;
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/components/common/divider.dart';
+import 'package:call_tracker/components/common/loader.dart';
+import 'package:call_tracker/components/common/sized_text.dart';
+import 'package:call_tracker/data/models/filter_preset.dart';
+import 'package:call_tracker/providers/call_logs_provider.dart';
+import 'package:call_tracker/providers/filter_presets_provider.dart';
+import 'package:call_tracker/providers/log_filters_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/duration_filtering_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/phone_account_filtering_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/uses_filter_presets_provider.dart';
+import 'package:call_tracker/screens/settings/preset_editor.dart';
+import 'package:call_tracker/utils/filters.dart';
+import 'package:call_tracker/utils/constants.dart' as constants;
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 class FilterPresetsActivity extends ConsumerStatefulWidget {
   const FilterPresetsActivity({super.key});

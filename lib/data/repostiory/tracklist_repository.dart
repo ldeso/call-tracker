@@ -1,5 +1,5 @@
-import 'package:logger/data/datasource/tracklist_datasource.dart';
-import 'package:logger/data/models/tracklist_item.dart';
+import 'package:call_tracker/data/datasource/tracklist_datasource.dart';
+import 'package:call_tracker/data/models/tracklist_item.dart';
 
 class TrackListRepository {
   final TrackListDatasource _datasource;

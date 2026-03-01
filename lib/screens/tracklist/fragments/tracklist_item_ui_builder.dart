@@ -1,5 +1,5 @@
-import 'package:logger/data/models/tracklist_item.dart';
-import 'package:logger/screens/tracklist/fragments/tracklist_item_ui.dart';
+import 'package:call_tracker/data/models/tracklist_item.dart';
+import 'package:call_tracker/screens/tracklist/fragments/tracklist_item_ui.dart';
 
 class TracklistItemUiBuilder {
   static final TracklistItemUiBuilder _instance = TracklistItemUiBuilder._();

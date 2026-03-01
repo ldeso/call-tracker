@@ -8,7 +8,7 @@
      </queries>
 
     <application
-        android:label="Logger"
+        android:label="Call Tracker"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:localeConfig="@xml/locales_config"

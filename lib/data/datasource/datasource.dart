@@ -1,9 +1,9 @@
-import 'package:logger/data/datasource/filter_preset_datasource.dart';
-import 'package:logger/data/datasource/tracklist_datasource.dart';
+import 'package:call_tracker/data/datasource/filter_preset_datasource.dart';
+import 'package:call_tracker/data/datasource/tracklist_datasource.dart';
 import 'package:sqflite/sqflite.dart';
 
 class Datasource {
-  static const dbName = 'com.logger.app.db';
+  static const dbName = 'net.leodesouza.calltracker.db';
   static Database? _database;
 
   static final Datasource _instance = Datasource._();

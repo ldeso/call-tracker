@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/components/common/divider.dart';
-import 'package:logger/providers/log_filters_provider.dart';
-import 'package:logger/utils/contact_handler.dart';
-import 'package:logger/utils/format_helpers.dart';
-import 'package:logger/utils/native_methods.dart';
-import 'package:logger/utils/phone_formatter.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/components/common/divider.dart';
+import 'package:call_tracker/providers/log_filters_provider.dart';
+import 'package:call_tracker/utils/contact_handler.dart';
+import 'package:call_tracker/utils/format_helpers.dart';
+import 'package:call_tracker/utils/native_methods.dart';
+import 'package:call_tracker/utils/phone_formatter.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 class LogDetails extends ConsumerWidget {
   const LogDetails({

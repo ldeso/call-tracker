@@ -1,6 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:logger/utils/locale.dart';
+import 'package:call_tracker/utils/locale.dart';
 
 class WeekdayBarChart extends StatelessWidget {
   final List<double> weekdayPercentages;

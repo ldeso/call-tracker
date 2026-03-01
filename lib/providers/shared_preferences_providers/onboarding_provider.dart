@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/providers/shared_utility_provider.dart';
+import 'package:call_tracker/providers/shared_utility_provider.dart';
 
 final onboardingProvider =
     StateNotifierProvider<OnboardingProvider, bool>((ref) {

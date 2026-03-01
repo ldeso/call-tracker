@@ -1,12 +1,12 @@
 import 'package:call_log/call_log.dart';
 import 'package:flutter/material.dart';
-import 'package:logger/components/common/divider.dart';
-import 'package:logger/components/common/log_entry.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:logger/components/logs/grouped_slidable.dart';
-import 'package:logger/utils/call_display_helper.dart';
-import 'package:logger/utils/format_helpers.dart';
-import 'package:logger/utils/grouper.dart';
+import 'package:call_tracker/components/common/divider.dart';
+import 'package:call_tracker/components/common/log_entry.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
+import 'package:call_tracker/components/logs/grouped_slidable.dart';
+import 'package:call_tracker/utils/call_display_helper.dart';
+import 'package:call_tracker/utils/format_helpers.dart';
+import 'package:call_tracker/utils/grouper.dart';
 
 class GroupedLogsBuilder extends StatelessWidget {
   final List<CallLogEntry> entries;

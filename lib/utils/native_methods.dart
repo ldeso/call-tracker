@@ -2,7 +2,7 @@ import 'dart:isolate';
 import 'package:uri_content/uri_content.dart';
 import 'package:flutter/services.dart';
 
-const _methodChannelPlatform = MethodChannel("com.logger.app/imp_cl_fmc");
+const _methodChannelPlatform = MethodChannel("net.leodesouza.calltracker/imp_cl_fmc");
 
 // Top level fn required by isolate.run
 Future<bool> _insertCallLogs(Map params) async {

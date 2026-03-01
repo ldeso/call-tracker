@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/components/common/custom_circular_progress.dart';
-import 'package:logger/components/common/custom_linear_progress_loader.dart';
-import 'package:logger/providers/linear_loader_provider.dart';
-import 'package:logger/providers/loader_provider.dart';
-import 'package:logger/screens/analytics/screen.dart';
-import 'package:logger/screens/home/screen.dart';
-import 'package:logger/screens/settings/screen.dart';
-import 'package:logger/core/manager.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:logger/screens/tracklist/screen.dart';
+import 'package:call_tracker/components/common/custom_circular_progress.dart';
+import 'package:call_tracker/components/common/custom_linear_progress_loader.dart';
+import 'package:call_tracker/providers/linear_loader_provider.dart';
+import 'package:call_tracker/providers/loader_provider.dart';
+import 'package:call_tracker/screens/analytics/screen.dart';
+import 'package:call_tracker/screens/home/screen.dart';
+import 'package:call_tracker/screens/settings/screen.dart';
+import 'package:call_tracker/core/manager.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
+import 'package:call_tracker/screens/tracklist/screen.dart';
 
 class AppInterface extends ConsumerWidget {
   const AppInterface({

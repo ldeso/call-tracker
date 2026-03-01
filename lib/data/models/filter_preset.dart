@@ -1,6 +1,6 @@
 import 'package:call_log/call_log.dart';
-import 'package:logger/utils/filter_date_ranges.dart';
-import 'package:logger/utils/filters.dart';
+import 'package:call_tracker/utils/filter_date_ranges.dart';
+import 'package:call_tracker/utils/filters.dart';
 
 class FilterPreset {
   final int id;

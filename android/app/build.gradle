@@ -30,7 +30,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.logger.app"
+    namespace "net.leodesouza.calltracker"
     compileSdk flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -48,8 +48,8 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.logger.app"
-        minSdkVersion 21
+        applicationId "net.leodesouza.calltracker"
+        minSdkVersion flutter.minSdkVersion
         targetSdkVersion 35
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

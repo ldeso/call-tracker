@@ -2,7 +2,7 @@ import 'dart:collection';
 import 'dart:math';
 import 'package:call_log/call_log.dart';
 import 'package:flutter/foundation.dart';
-import 'package:logger/utils/phone_formatter.dart';
+import 'package:call_tracker/utils/phone_formatter.dart';
 
 class CallLogEntryWithFreq {
   final CallLogEntry entry;

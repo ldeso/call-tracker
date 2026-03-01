@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:logger/components/common/sized_text.dart';
-import 'package:logger/components/logs/contact_log_freq.dart';
-import 'package:logger/screens/analytics/screen.dart';
-import 'package:logger/utils/analytics_fns.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/components/common/sized_text.dart';
+import 'package:call_tracker/components/logs/contact_log_freq.dart';
+import 'package:call_tracker/screens/analytics/screen.dart';
+import 'package:call_tracker/utils/analytics_fns.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 class CallFreqTile extends StatelessWidget {
   final double spacing;

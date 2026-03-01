@@ -1,13 +1,13 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/components/common/app_error.dart';
-import 'package:logger/components/common/loader.dart';
-import 'package:logger/providers/call_logs_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/onboarding_provider.dart';
-import 'package:logger/screens/onboarding/screen.dart';
-import 'package:logger/core/app_interface.dart';
+import 'package:call_tracker/components/common/app_error.dart';
+import 'package:call_tracker/components/common/loader.dart';
+import 'package:call_tracker/providers/call_logs_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/onboarding_provider.dart';
+import 'package:call_tracker/screens/onboarding/screen.dart';
+import 'package:call_tracker/core/app_interface.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 class AppCore extends ConsumerWidget {
   final WidgetsBinding widgetsBinding;

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/components/logs/logs_page.dart';
-import 'package:logger/providers/call_logs_provider.dart';
-import 'package:logger/providers/current_call_logs_provider.dart';
-import 'package:logger/providers/log_filters_provider.dart';
-import 'package:logger/providers/shared_preferences_providers/call_log_count_provider.dart';
+import 'package:call_tracker/components/logs/logs_page.dart';
+import 'package:call_tracker/providers/call_logs_provider.dart';
+import 'package:call_tracker/providers/current_call_logs_provider.dart';
+import 'package:call_tracker/providers/log_filters_provider.dart';
+import 'package:call_tracker/providers/shared_preferences_providers/call_log_count_provider.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({

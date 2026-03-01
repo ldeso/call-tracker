@@ -1,10 +1,10 @@
 import 'package:call_log/call_log.dart';
 import 'package:flutter/material.dart';
-import 'package:logger/components/analytics/call_stats.dart';
-import 'package:logger/components/common/grid_skeleton.dart';
-import 'package:logger/utils/analytics_fns.dart';
-import 'package:logger/utils/format_helpers.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/components/analytics/call_stats.dart';
+import 'package:call_tracker/components/common/grid_skeleton.dart';
+import 'package:call_tracker/utils/analytics_fns.dart';
+import 'package:call_tracker/utils/format_helpers.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 
 class QuickLogSummary extends StatelessWidget {
   final Iterable<CallLogEntry> logs;

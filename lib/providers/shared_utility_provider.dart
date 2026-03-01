@@ -1,10 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:logger/utils/exported_filename_formatter.dart';
-import 'package:logger/utils/file_types.dart';
-import 'package:logger/utils/generate_files.dart';
-import 'package:logger/utils/grouper.dart';
+import 'package:call_tracker/utils/exported_filename_formatter.dart';
+import 'package:call_tracker/utils/file_types.dart';
+import 'package:call_tracker/utils/generate_files.dart';
+import 'package:call_tracker/utils/grouper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:logger/utils/constants.dart' as constants;
+import 'package:call_tracker/utils/constants.dart' as constants;
 
 final sharedPreferencesProvider = Provider<SharedPreferences>((ref) {
   throw UnimplementedError();

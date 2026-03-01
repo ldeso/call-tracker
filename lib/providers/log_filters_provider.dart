@@ -1,11 +1,11 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:call_log/call_log.dart';
-import 'package:logger/providers/call_logs_provider.dart';
-import 'package:logger/providers/current_call_logs_provider.dart';
-import 'package:logger/providers/filter_presets_provider.dart';
-import 'package:logger/providers/loader_provider.dart';
-import 'package:logger/utils/filters.dart';
-import 'package:logger/utils/phone_formatter.dart';
+import 'package:call_tracker/providers/call_logs_provider.dart';
+import 'package:call_tracker/providers/current_call_logs_provider.dart';
+import 'package:call_tracker/providers/filter_presets_provider.dart';
+import 'package:call_tracker/providers/loader_provider.dart';
+import 'package:call_tracker/utils/filters.dart';
+import 'package:call_tracker/utils/phone_formatter.dart';
 
 class LogsFilterState {
   final Filter filter;

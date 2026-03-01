@@ -4,25 +4,21 @@ class AppInformation {
   }
 
   static String supportURL() {
-    return "https://github.com/Sanmeet007/logger";
+    return "https://github.com/ldeso/call-tracker";
   }
 
   static String supportEmail() {
-    return "ssanmeet007@gmail.com";
+    return "hello@leodesouza.net";
   }
 
   static Uri getReportLink() {
-    Uri reportLink = Uri.parse('https://github.com/Sanmeet007/logger/issues');
+    Uri reportLink = Uri.parse('https://github.com/ldeso/call-tracker/issues');
     return reportLink;
   }
 
   static Uri getRepoLink() {
-    Uri reportLink = Uri.parse('https://github.com/Sanmeet007/logger');
+    Uri reportLink = Uri.parse('https://github.com/ldeso/call-tracker');
     return reportLink;
   }
 
-  static Uri getDonationLink() {
-    Uri donationLink = Uri.parse('https://buymeacoffee.com/sanmeet007');
-    return donationLink;
-  }
 }

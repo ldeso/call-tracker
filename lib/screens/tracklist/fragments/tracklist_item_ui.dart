@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:logger/components/common/skeleton.dart';
-import 'package:logger/components/tracklist/tracklist_stats_tile.dart';
-import 'package:logger/data/models/tracklist_item.dart';
-import 'package:logger/providers/call_logs_provider.dart';
-import 'package:logger/providers/log_filters_provider.dart';
-import 'package:logger/providers/screen_index.dart';
-import 'package:logger/providers/tracklist_provider.dart';
-import 'package:logger/screens/tracklist/fragments/weekday_barchart.dart';
-import 'package:logger/utils/call_display_helper.dart';
-import 'package:logger/utils/contact_handler.dart';
-import 'package:logger/utils/format_helpers.dart';
-import 'package:logger/utils/native_methods.dart';
-import 'package:logger/utils/phone_formatter.dart';
-import 'package:logger/utils/tracking_metrics.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:call_tracker/components/common/skeleton.dart';
+import 'package:call_tracker/components/tracklist/tracklist_stats_tile.dart';
+import 'package:call_tracker/data/models/tracklist_item.dart';
+import 'package:call_tracker/providers/call_logs_provider.dart';
+import 'package:call_tracker/providers/log_filters_provider.dart';
+import 'package:call_tracker/providers/screen_index.dart';
+import 'package:call_tracker/providers/tracklist_provider.dart';
+import 'package:call_tracker/screens/tracklist/fragments/weekday_barchart.dart';
+import 'package:call_tracker/utils/call_display_helper.dart';
+import 'package:call_tracker/utils/contact_handler.dart';
+import 'package:call_tracker/utils/format_helpers.dart';
+import 'package:call_tracker/utils/native_methods.dart';
+import 'package:call_tracker/utils/phone_formatter.dart';
+import 'package:call_tracker/utils/tracking_metrics.dart';
+import 'package:call_tracker/l10n/app_localizations.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class TracklistItemUi extends ConsumerStatefulWidget {

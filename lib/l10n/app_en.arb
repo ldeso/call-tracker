@@ -96,9 +96,6 @@
   "@disableLogsSharingText": {
     "description": "Text to disable the sharing of call logs."
   },
-  "@donateText": {
-    "description": "Text for a button encouraging users to donate to support the app."
-  },
   "@downloadConfirmationText": {
     "description": "Confirmation message shown before downloading call logs in the selected format, mentioning the type of file and its storage location.",
     "placeholders": {
@@ -189,9 +186,6 @@
   "@enableFilterByAccountIdText": {
     "description": "Option to enable filtering call logs by account ID."
   },
-  "@enableLogsSharingText": {
-    "description": "Text to enable the sharing of call logs."
-  },
   "@exploreNowText": {
     "description": "Text encouraging the user to begin exploring the app's features."
   },
@@ -259,10 +253,10 @@
     "description": "Title for the fourth onboarding screen, showcasing the app's import and export features."
   },
   "@onboardingScreenOneSubtitle": {
-    "description": "Subtitle for the first onboarding screen, introducing Logger as a call log management and analysis app."
+    "description": "Subtitle for the first onboarding screen, introducing Call Tracker as a call log management and analysis app."
   },
   "@onboardingScreenOneTitle": {
-    "description": "Title for the first onboarding screen welcoming the user to Logger."
+    "description": "Title for the first onboarding screen welcoming the user to Call Tracker."
   },
   "@onboardingScreenThreeSubtitle": {
     "description": "Subtitle for the third onboarding screen, explaining the detailed insights the app provides about call patterns."
@@ -582,7 +576,7 @@
   "analyticsPolicyText": "All call log data is analyzed locally on your device and never transmitted to online servers, ensuring your privacy and keeping your information safe and confidential",
   "analyticsScreenLabelText": "Analytics",
   "appError": "Ah snap! Something went wrong",
-  "appTitle": "Logger",
+  "appTitle": "Call Tracker",
   "applyFiltersText": "Apply Filters",
   "baseGhostErrorMessage": "Something went wrong",
   "baseSettingsLabelText": "General Settings",
@@ -597,7 +591,6 @@
   "confirmImportText": "Importing call logs is a significant task that can irreversibly corrupt your current logs, overwrite data, and cause inconsistencies in your history. Please be aware that this process may take some time and could lead to the issues mentioned above. Proceed with caution.",
   "continueText": "Continue",
   "dateText": "Date",
-  "donateText": "Donate",
   "downloadConfirmationText": "Are you sure you want to download your call logs in {currentImportType} format? This action will save your call history to a {currentImportType} file on your device.",
   "downloadText": "Download",
   "dtAAcronymExapandedText": "Full weekday name",
@@ -646,7 +639,7 @@
   "onboardingScreenFourSubtitle": "Seamlessly transfer call logs between devices or export them for safekeeping and analysis.",
   "onboardingScreenFourTitle": "Import & Export",
   "onboardingScreenOneSubtitle": "Your go-to app for managing and analyzing your call logs effortlessly.",
-  "onboardingScreenOneTitle": "Welcome to Logger!",
+  "onboardingScreenOneTitle": "Welcome to Call Tracker!",
   "onboardingScreenThreeSubtitle": "Understand your call patterns like never before and get detailed insights to optimize your time.",
   "onboardingScreenThreeTitle": "Analyze Your Calls",
   "onboardingScreenTwoSubtitle": "Search, filter, and manage your call logs with a seamless and intuitive interface.",
@@ -673,7 +666,7 @@
   "skipText": "Skip",
   "startImportText": "Start Import",
   "storagePolicyLabelText": "Storage Policy",
-  "storagePolicyText": "This app temporarily stores generated files, deleting them on exit. You can download call logs to your chosen location. Logger only accesses call logs, ensuring your privacy.",
+  "storagePolicyText": "This app temporarily stores generated files, deleting them on exit. You can download call logs to your chosen location. Call Tracker only accesses call logs, ensuring your privacy.",
   "supportedFormatInformation": "Please note: Only CSV format is currently supported for importing call logs.",
   "timeText": "Time",
   "tokenAccordianText": "date & time formatting tokens",
@@ -758,7 +751,7 @@
   "softwareInformationText": "Software Information",
   "addToContactsText": "Add Contact",
   "addToContactsErrorText": "Unable to add new contact",
-  "appPermissionsDeniedError": "Uh-oh! It seems like access to call logs has been denied. To ensure Logger works smoothly, please grant permission. ",
+  "appPermissionsDeniedError": "Uh-oh! It seems like access to call logs has been denied. To ensure Call Tracker works smoothly, please grant permission. ",
   "appFatalError": "Ah snap! Something unexpected happened!",
   "appPreferencesError": "Ah! Snap error loading preferences",
   "uriPermissionError": "Unable to get permissions",
@@ -803,7 +796,7 @@
   "exportFormatSettingSubtitle": "Choose the format for exported call logs",
   "importCallLogsSettingSubtitle": "Import call history from other sources or backups",
   "appDetailsText": "App Info & Details",
-  "appDetailsSubText": "Version • Donate • Bug Report",
+  "appDetailsSubText": "Version • Bug Report",
   "enableDownloadConfirmationText": "Confirm download",
   "enableDownloadConfirmationSubText": "Prompt before downloading files",
   "enableCallDurationFilteringText": "Duration filtering",

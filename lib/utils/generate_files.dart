@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:isolate';
 
 import 'package:call_log/call_log.dart';
-import 'package:logger/utils/file_types.dart';
+import 'package:call_tracker/utils/file_types.dart';
 import 'package:shared_storage/shared_storage.dart';
 
 String _csvEscape(dynamic value) {
@@ -99,14 +99,14 @@ END:VEVENT""";
 
 String _toICalString(final Iterable<CallLogEntry>? callLogs) {
   if (callLogs == null) {
-    return "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Logger App//EN\nEND:VCALENDAR";
+    return "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Call Tracker//EN\nEND:VCALENDAR";
   }
 
   final buffer = StringBuffer();
 
   buffer.writeln("BEGIN:VCALENDAR");
   buffer.writeln("VERSION:2.0");
-  buffer.writeln("PRODID:-//Logger App//EN");
+  buffer.writeln("PRODID:-//Call Tracker//EN");
 
   for (final entry in callLogs) {
     buffer.writeln(_iCalifyCallEntry(entry));

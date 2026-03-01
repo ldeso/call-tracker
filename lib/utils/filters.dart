@@ -3,8 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart';
-import 'package:logger/utils/filter_date_ranges.dart';
-import 'package:logger/utils/constants.dart' as constants;
+import 'package:call_tracker/utils/filter_date_ranges.dart';
+import 'package:call_tracker/utils/constants.dart' as constants;
 
 class Filter {
   bool usesSpecificPhoneNumber;

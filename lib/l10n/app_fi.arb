@@ -241,6 +241,8 @@
     "trackListLabelText": "Seurantalista",
     "tracklistPlaceholderText": "Hallitse seurattavia kontaktejasi tehokkaasti. Napauta + (oikeassa yläkulmassa) lisätäksesi kontaktin, pyyhkäise vasemmalle listan kohteessa ja napauta Poista poistaaksesi seurannan.",
     "removeAllText": "poista kaikki",
+    "confirmRemoveAllText": "Poista kaikki",
+    "confirmRemoveAllDescriptionText": "Haluatko varmasti poistaa kaikki seuratut yhteystiedot? Tätä toimintoa ei voi kumota.",
     "trackContactLabelText": "Kontaktin nimi",
     "trackContactText": "Seuraa kontaktia",
     "removeText": "Poista",

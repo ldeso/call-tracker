@@ -250,6 +250,8 @@
   "trackListLabelText": "ट्रैक लिस्ट",
   "tracklistPlaceholderText": "अपने ट्रैक किए गए संपर्कों को कुशलतापूर्वक प्रबंधित करें। संपर्क जोड़ने के लिए ऊपर-दाएँ + पर टैप करें, किसी लिस्ट आइटम पर बाईं ओर स्वाइप करें और अनट्रैक करने के लिए Remove पर टैप करें।",
   "removeAllText": "सभी हटाएँ",
+  "confirmRemoveAllText": "सभी हटाएँ",
+  "confirmRemoveAllDescriptionText": "क्या आप वाकई सभी ट्रैक किए गए संपर्कों को हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता।",
   "trackContactLabelText": "संपर्क का नाम",
   "trackContactText": "संपर्क ट्रैक करें",
   "removeText": "हटाएँ",

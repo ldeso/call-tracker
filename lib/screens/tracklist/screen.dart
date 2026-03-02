@@ -45,11 +45,48 @@ class TrackListScreen extends ConsumerWidget {
                       icon: Icon(Icons.delete),
                       onPressed:
                           (ref.watch(trackListProvider).value ?? []).isNotEmpty
-                              ? () async {
-                                  await ref
-                                      .read(trackListProvider.notifier)
-                                      .purge();
-                                  return;
+                              ? () {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) {
+                                      return AlertDialog(
+                                        title: Text(
+                                          AppLocalizations.of(context)
+                                              .confirmRemoveAllText,
+                                        ),
+                                        content: SingleChildScrollView(
+                                          child: Text(
+                                            AppLocalizations.of(context)
+                                                .confirmRemoveAllDescriptionText,
+                                          ),
+                                        ),
+                                        actions: [
+                                          OutlinedButton(
+                                            onPressed: () {
+                                              Navigator.pop(context);
+                                            },
+                                            child: Text(
+                                              AppLocalizations.of(context)
+                                                  .cancelText,
+                                            ),
+                                          ),
+                                          ElevatedButton(
+                                            onPressed: () async {
+                                              Navigator.pop(context);
+                                              await ref
+                                                  .read(trackListProvider
+                                                      .notifier)
+                                                  .purge();
+                                            },
+                                            child: Text(
+                                              AppLocalizations.of(context)
+                                                  .continueText,
+                                            ),
+                                          ),
+                                        ],
+                                      );
+                                    },
+                                  );
                                 }
                               : null,
                       label: Text(

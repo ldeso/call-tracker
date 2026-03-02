@@ -241,6 +241,8 @@
     "trackListLabelText": "追踪列表",
     "tracklistPlaceholderText": "高效管理您的追踪联系人。点击右上角 + 添加联系人，左滑列表项并点击移除以取消追踪。",
     "removeAllText": "全部移除",
+    "confirmRemoveAllText": "全部移除",
+    "confirmRemoveAllDescriptionText": "您确定要移除所有追踪的联系人吗？此操作无法撤消。",
     "trackContactLabelText": "联系人姓名",
     "trackContactText": "追踪联系人",
     "removeText": "移除",

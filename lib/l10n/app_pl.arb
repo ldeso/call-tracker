@@ -241,6 +241,8 @@
   "trackListLabelText": "Lista śledzenia",
   "tracklistPlaceholderText": "Zarządzaj śledzonymi kontaktami efektywnie. Stuknij + (w prawym górnym rogu), aby dodać kontakt, przesuń w lewo element listy i stuknij Usuń, aby przestać śledzić.",
   "removeAllText": "usuń wszystko",
+  "confirmRemoveAllText": "Usuń wszystko",
+  "confirmRemoveAllDescriptionText": "Czy na pewno chcesz usunąć wszystkie śledzone kontakty? Tej czynności nie można cofnąć.",
   "trackContactLabelText": "Nazwa kontaktu",
   "trackContactText": "Śledź kontakt",
   "removeText": "Usuń",

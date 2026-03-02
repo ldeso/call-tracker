@@ -241,6 +241,8 @@
   "trackListLabelText": "Lista de acompanhamento",
   "tracklistPlaceholderText": "Gerencie seus contatos rastreados de forma eficiente. Toque em + (canto superior direito) para adicionar um contato, deslize um item da lista para a esquerda e toque em Remover para parar de acompanhar.",
   "removeAllText": "remover tudo",
+  "confirmRemoveAllText": "Remover tudo",
+  "confirmRemoveAllDescriptionText": "Tem certeza de que deseja remover todos os contatos rastreados? Esta ação não pode ser desfeita.",
   "trackContactLabelText": "Nome do contato",
   "trackContactText": "Rastrear um contato",
   "removeText": "Remover",

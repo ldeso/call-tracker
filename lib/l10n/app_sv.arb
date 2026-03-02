@@ -241,6 +241,8 @@
     "trackListLabelText": "Spårningslista",
     "tracklistPlaceholderText": "Hantera dina spårade kontakter effektivt. Tryck på + (uppe till höger) för att lägga till en kontakt, svep ett listobjekt åt vänster och tryck på Ta bort för att sluta spåra.",
     "removeAllText": "ta bort alla",
+    "confirmRemoveAllText": "Ta bort alla",
+    "confirmRemoveAllDescriptionText": "Är du säker på att du vill ta bort alla spårade kontakter? Denna åtgärd kan inte ångras.",
     "trackContactLabelText": "Kontaktnamn",
     "trackContactText": "Spåra en kontakt",
     "removeText": "Ta bort",

@@ -241,6 +241,8 @@
   "trackListLabelText": "Takip Listesi",
   "tracklistPlaceholderText": "Takip ettiğiniz kişileri verimli bir şekilde yönetin. Kişi eklemek için sağ üstteki + simgesine dokunun, bir liste öğesini sola kaydırın ve Takibi Kaldır'a dokunarak takipten çıkarın.",
   "removeAllText": "hepsini kaldır",
+  "confirmRemoveAllText": "Hepsini kaldır",
+  "confirmRemoveAllDescriptionText": "Tüm takip edilen kişileri kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz.",
   "trackContactLabelText": "Kişi Adı",
   "trackContactText": "Bir Kişiyi Takip Et",
   "removeText": "Kaldır",

@@ -241,6 +241,8 @@
   "trackListLabelText": "Volglijst",
   "tracklistPlaceholderText": "Beheer je gevolgde contacten efficiënt. Tik op + (rechtsboven) om een contact toe te voegen, veeg een lijstitem naar links en tik op Verwijderen om het volgen te stoppen.",
   "removeAllText": "alles verwijderen",
+  "confirmRemoveAllText": "Alles verwijderen",
+  "confirmRemoveAllDescriptionText": "Weet u zeker dat u alle gevolgde contacten wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
   "trackContactLabelText": "Contactnaam",
   "trackContactText": "Volg een contact",
   "removeText": "Verwijderen",

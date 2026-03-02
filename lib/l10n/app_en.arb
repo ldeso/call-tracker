@@ -564,6 +564,12 @@
   "@naText": {
     "description": "Text for 'n/a' (Not Applicable)"
   },
+  "@confirmRemoveAllText": {
+    "description": "Title for the confirmation dialog when removing all items from the tracklist."
+  },
+  "@confirmRemoveAllDescriptionText": {
+    "description": "Description text in the confirmation dialog explaining that all tracked contacts will be permanently removed from the tracklist."
+  },
   "@addToTrackList": {
     "description": "Instruction text to tell the user they can add contacts to the tracklist",
     "placeholders": {
@@ -812,6 +818,8 @@
   "trackListLabelText": "Tracklist",
   "tracklistPlaceholderText": "Manage your tracked contacts efficiently. Tap + (top-right) to add a contact, swipe left on a list item and tap Remove to untrack.",
   "removeAllText": "remove all",
+  "confirmRemoveAllText": "Remove All",
+  "confirmRemoveAllDescriptionText": "Are you sure you want to remove all tracked contacts? This action cannot be undone.",
   "trackContactLabelText": "Contact Name",
   "trackContactText": "Track a Contact",
   "removeText": "Remove",

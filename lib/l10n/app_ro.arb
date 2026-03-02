@@ -241,6 +241,8 @@
   "trackListLabelText": "Lista de urmărire",
   "tracklistPlaceholderText": "Gestionează-ți contactele urmărite eficient. Apasă + (în dreapta sus) pentru a adăuga un contact, glisează spre stânga pe un element din listă și apasă Elimină pentru a opri urmărirea.",
   "removeAllText": "elimină tot",
+  "confirmRemoveAllText": "Elimină tot",
+  "confirmRemoveAllDescriptionText": "Sigur doriți să eliminați toate contactele urmărite? Această acțiune nu poate fi anulată.",
   "trackContactLabelText": "Numele contactului",
   "trackContactText": "Urmărește un contact",
   "removeText": "Elimină",

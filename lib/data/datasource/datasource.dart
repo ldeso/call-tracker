@@ -21,7 +21,7 @@ class Datasource {
   Future<Database> _initDb() async {
     return await openDatabase(
       dbName,
-      version: 2,
+      version: 3,
       onCreate: _onCreate,
       onUpgrade: _onUpgrade,
     );
@@ -49,7 +49,7 @@ class Datasource {
     await db.execute('''
     CREATE TABLE IF NOT EXISTS ${TrackListDatasource.tableName} (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      phone_number TEXT UNIQUE,
+      contact_name TEXT UNIQUE,
       creation_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
     )
   ''');
@@ -61,6 +61,16 @@ class Datasource {
       CREATE TABLE tracklist (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         phone_number TEXT UNIQUE,
+        creation_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+      )
+    ''');
+    }
+    if (oldVersion < 3) {
+      await db.execute('DROP TABLE IF EXISTS ${TrackListDatasource.tableName}');
+      await db.execute('''
+      CREATE TABLE ${TrackListDatasource.tableName} (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        contact_name TEXT UNIQUE,
         creation_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
       )
     ''');
